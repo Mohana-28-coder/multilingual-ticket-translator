@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     
     # AI Settings
     USE_LOCAL_AI: bool = True
-    OLLAMA_BASE_URL: str = "[localhost](http://localhost:11434)"
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
     OLLAMA_MODEL: str = "llama2"
     
     class Config:
